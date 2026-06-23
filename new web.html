@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinitha Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1a1a1a, #330000);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #ff4d4d;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #ff9999;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 15px;
+      background: #ff4d4d;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Vinitha 👋</h1>
+    <p>Computer Science Student | Web Developer</p>
+  </header>
+
+  <section class="container">
+
+    <div class="card">
+      <img src="tiger.jpg" alt="Project 1">
+      <h3>Tiger Info Page</h3>
+      <p>A simple HTML page about tigers with images and styling.</p>
+    </div>
+
+    <div class="card">
+      <img src="tiger white.jpg" alt="Project 2">
+      <h3>White Tiger Page</h3>
+      <p>Showcase of rare white tiger with styled layout.</p>
+    </div>
+
+    <div class="card">
+      <img src="cat.jpeg" alt="Project 3">
+      <h3>Cat Gallery</h3>
+      <p>Image gallery with background styling.</p>
+    </div>
+
+  </section>
+
+  <div style="text-align:center;">
+    <a class="btn" href="https://www.linkedin.com/in/vinitha-viswalingam-1a7437307" target="_blank">Connect on LinkedIn</a>
+  </div>
+
+  <footer>
+    <p>© 2026 Vinitha | Built with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
+
+
